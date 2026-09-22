@@ -1,0 +1,10 @@
+models/
+outputs/
+metadata/
+!metadata/MANIFEST.json
+!outputs/CPCB_STATION_COORDINATES.csv
+!outputs/MULTI_POLLUTANT_FORECAST_RESULTS.csv
+!outputs/MULTI_POLLUTANT_FORECASTS_2025.csv
+!outputs/SIH26082_STAGE_13B_ALERT_ENGINE_2025.csv
+**/__pycache__/
+frontend/node_modules/

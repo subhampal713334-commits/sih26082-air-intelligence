@@ -1,0 +1,37 @@
+{
+    "project": "SIH26082",
+    "package": "Essential Full-Stack Hackathon Package",
+    "pollutants": [
+        "PM2.5",
+        "PM10",
+        "NO2",
+        "SO2",
+        "CO",
+        "O3",
+        "NH3"
+    ],
+    "forecast_horizons": [
+        "+1h",
+        "+6h",
+        "+12h",
+        "+24h",
+        "+48h",
+        "+72h"
+    ],
+    "trained_model_count": 42,
+    "expected_model_count": 42,
+    "model_type": "XGBoost",
+    "components": [
+        "42 trained multipollutant models",
+        "Multi-pollutant forecasts",
+        "CPCB breakpoint AQI calculation",
+        "AQI dashboard data",
+        "Dynamic alert engine",
+        "Risk classification",
+        "Dominant pollutant detection",
+        "Station coordinates",
+        "AQI validation",
+        "Multipollutant validation"
+    ],
+    "training_required_for_dashboard": false
+}

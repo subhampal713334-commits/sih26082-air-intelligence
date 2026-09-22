@@ -1,0 +1,86 @@
+# Dependencies & Node Modules
+node_modules/
+frontend/node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Frontend Build & Cache
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.turbo/
+.cache/
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Misc
+*.tmp
+*.bak
+*.swp
+.next/
+out/
+cloudflared.exe
+.turbo/
+tsconfig.tsbuildinfo
+.vercel
+
+# Large source artifacts; compact deployment data lives in application/deployment_data/
+models/
+outputs/
+deployment_data/
+api/deployment_data/
+api/data/
+CPCB_STATION_COORDINATES.csv
