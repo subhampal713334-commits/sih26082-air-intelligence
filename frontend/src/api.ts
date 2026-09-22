@@ -1,4 +1,6 @@
-export const API_BASE = import.meta.env.VITE_API_BASE ?? "";
+export const API_BASE =
+  import.meta.env.VITE_API_BASE ??
+  "https://sih26082-air-intelligence-api.onrender.com";
 
 export async function apiGet<T>(path: string): Promise<T> {
   const response = await fetch(`${API_BASE}/api${path}`);
