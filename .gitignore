@@ -83,4 +83,6 @@ outputs/
 deployment_data/
 api/deployment_data/
 api/data/
+!application/deployment_data/
+!application/deployment_data/**
 CPCB_STATION_COORDINATES.csv
